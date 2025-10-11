@@ -11,7 +11,6 @@ from network.UFPN_p import UFPN
 from tqdm import tqdm
 from utils import dataloader
 from utils import dataloader_v2
-from utils.utils import *
 from utils.metrics import Evaluator
 from utils.tools import adjust_lr
 import warnings
@@ -127,6 +126,7 @@ if __name__ == '__main__':
         Train(train_loader, CD_Model, CD_Model_optimizer, epoch, Eva_tr, opt.threshold)
         if epoch % 10 == 0:
             torch.save(CD_Model.state_dict(), save_path + 'Seg_epoch_' + str(epoch) + '_Seg.pth')
+
 
 
 
