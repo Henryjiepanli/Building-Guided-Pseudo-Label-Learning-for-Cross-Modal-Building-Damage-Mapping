@@ -97,5 +97,30 @@ cd ../ChangeDetection
 bash train_pseudo_post.sh  # Train six models
 bash test_pseudo_post.sh  # Perform inference using low-uncertainty pseudo-label training and post-processing strategies
 ```
+```bibtex
 
+@ARTICLE{10418227,
+  author={Li, Jiepan and He, Wei and Cao, Weinan and Zhang, Liangpei and Zhang, Hongyan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={UANet: An Uncertainty-Aware Network for Building Extraction From Remote Sensing Images}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-13},
+  keywords={Feature extraction;Uncertainty;Buildings;Data mining;Decoding;Remote sensing;Deep learning;Building extraction;remote sensing (RS);uncertainty-aware},
+  doi={10.1109/TGRS.2024.3361211}}
+```
+
+```bibtex
+  @article{li2025overcoming,
+    title={Overcoming the uncertainty challenges in detecting building changes from remote sensing images},
+    author={Li, Jiepan and He, Wei and Li, Zhuohong and Guo, Yujun and Zhang, Hongyan},
+    journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+    volume={220},
+    pages={1--17},
+    year={2025},
+    publisher={Elsevier}
+    }
+```
 > **Note:** Ensure that all necessary dependencies and environment configurations are properly set up before executing the scripts. Besides, change the path of **test_root** to your path.
+
