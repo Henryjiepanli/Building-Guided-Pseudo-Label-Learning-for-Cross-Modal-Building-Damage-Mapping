@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python final_building_test.py --test_root '/home/henry/DFC2025/test/' --save_path './Final_building_results/' --model_path_1 './trained_models/Pseudo_output/UFPN/pvt_v2_b2/Seg.pth' --model_path_2 './trained_models/Pseudo_output/UFPN/pvt_v2_b3/Seg.pth' 
+python post_building.py --pred_path './Final_building_results/pred/' --save_path './Final_building_results/post_pred/' --vis_save_path './Final_building_results/post_vis/'

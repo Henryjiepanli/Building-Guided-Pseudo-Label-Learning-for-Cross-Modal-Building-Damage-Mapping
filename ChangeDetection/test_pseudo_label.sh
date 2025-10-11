@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python test_pseudo_label.py --model_path  --test_root  --save_path './cd_results/' --building_root './Final_building_results/post_pred'
+python post_cd_process.py --pred_path './cd_results/pred/' --building_path './Final_building_results/post_pred/' --save_path './cd_results/post_pred/' --vis_save_path './cd_results/post_vis/'

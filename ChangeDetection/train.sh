@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --batchsize 2 --save_path './Experiment/UABCD/' --train_root '' --val_root ''

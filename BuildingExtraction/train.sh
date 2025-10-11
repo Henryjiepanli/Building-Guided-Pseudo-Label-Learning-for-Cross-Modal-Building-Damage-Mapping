@@ -1,0 +1,6 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --batchsize 4 --backbone pvt_v2_b2 --save_path './output/UFPN/'
+CUDA_VISIBLE_DEVICES=0 python train.py --batchsize 2 --backbone pvt_v2_b3 --save_path './output/UFPN/'
+CUDA_VISIBLE_DEVICES=0 python train.py --batchsize 2 --backbone pvt_v2_b4 --save_path './output/UFPN/'
+CUDA_VISIBLE_DEVICES=0 python train.py --batchsize 4 --backbone pvt_v2_b2 --save_path './Re_output/UFPN/' --load './output/UFPN/pvt_v2_b2/Seg_epoch_best.pth'
+CUDA_VISIBLE_DEVICES=0 python train.py --batchsize 2 --backbone pvt_v2_b3 --save_path './Re_output/UFPN/' --load './output/UFPN/pvt_v2_b3/Seg_epoch_best.pth'
+CUDA_VISIBLE_DEVICES=0 python train.py --batchsize 2 --backbone pvt_v2_b4 --save_path './Re_output/UFPN/' --load './output/UFPN/pvt_v2_b4/Seg_epoch_best.pth'

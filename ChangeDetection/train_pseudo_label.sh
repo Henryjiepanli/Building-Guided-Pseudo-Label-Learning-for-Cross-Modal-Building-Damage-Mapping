@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train_pseudo_label.py --batchsize 2 --train_root './hawaii-wildfire_test/'

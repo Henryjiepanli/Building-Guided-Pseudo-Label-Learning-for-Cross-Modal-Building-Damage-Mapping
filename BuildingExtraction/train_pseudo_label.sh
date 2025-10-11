@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python train_pseudo_label.py --backbone pvt_v2_b2 --img_root '/home/henry/DFC2025/test/pre-event/' --gt_root './building_results/prob/' --batchsize 2
+CUDA_VISIBLE_DEVICES=0 python train_pseudo_label.py --backbone pvt_v2_b3 --img_root '/home/henry/DFC2025/test/pre-event/' --gt_root './building_results/prob/' --batchsize 2
