@@ -14,7 +14,6 @@ import warnings
 from utils import dataloader_v3
 from utils import dataloader_v2
 from utils.metrics import Evaluator
-from utils.utils import *
 from utils.func import adjust_lr, AvgMeter, print_network, poly_lr
 warnings.filterwarnings('ignore')
 
