@@ -97,6 +97,20 @@ cd ../ChangeDetection
 bash train_pseudo_post.sh  # Train six models
 bash test_pseudo_post.sh  # Perform inference using low-uncertainty pseudo-label training and post-processing strategies
 ```
+
+```bibtex
+ @INPROCEEDINGS{11243835,
+  author={Li, Jiepan and Huang, He and Sheng, Yu and Guo, Yujun and He, Wei},
+  booktitle={IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Building-Guided Pseudo-Label Learning for Cross-Modal Building Damage Mapping}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={228-232},
+  doi={10.1109/IGARSS55030.2025.11243835}}
+
+```
+
 ```bibtex
 
 @ARTICLE{10418227,
@@ -107,7 +121,6 @@ bash test_pseudo_post.sh  # Perform inference using low-uncertainty pseudo-label
   volume={62},
   number={},
   pages={1-13},
-  keywords={Feature extraction;Uncertainty;Buildings;Data mining;Decoding;Remote sensing;Deep learning;Building extraction;remote sensing (RS);uncertainty-aware},
   doi={10.1109/TGRS.2024.3361211}}
 ```
 
